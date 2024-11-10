@@ -1,0 +1,27 @@
+
+{% load usd %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>User defined Filters</h1>
+    <h1>{{data}}</h1>
+    <h1>{{data|swap}}</h1>
+    <h1>{{data|joining:'@'}}</h1>
+    <h1>{{data|alphabets}}</h1>
+    <h1>{{data|splitting:' '}}</h1>
+    <h1>{{data|startswith_endswith:'@'}}</h1>
+    
+    <h1>{{data|length}}</h1>
+    <h1>{{data|right_strip:'@.'}}</h1>
+    <h1>{{data|formate_str:'aavulaa@'}}</h1>
+    <h1>{{data|indexing:'h'}}</h1>
+    
+    </center>
+</body>
+</html>
